@@ -73,12 +73,14 @@ function consume(a, b, cb) {
   return cb(a, b)
 }
 
-function longer(a, b) {
-  if (a.length > b.length) {
-    return `${a} is the longer word`
-  }
-  return `${b} is the longer word`
-}
+
+//function used to test the consume() HOF
+// function longer(a, b) {
+//   if (a.length > b.length) {
+//     return `${a} is the longer word`
+//   }
+//   return `${b} is the longer word`
+// }
 
 
 /* Step 2: Create several functions to callback with consume();
@@ -113,4 +115,4 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
-
+console.log('arrays-callbacks.js stretch complete')

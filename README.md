@@ -26,8 +26,8 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
-    forEach is a function that loops through an array and performs a task for each item of the arary, returning nothing.  It's useful for when you want to perform a task for each
-    individual item.  The map function will also loop through an array, but will allow you to manipulate the item in the array and return that manipulated item into a new array.  The original array will remain unmutated while the mutated items will be stored in a new array. 
+
+    forEach is a function that loops through an array and performs a task for each item of the array, returning nothing.  It's useful for when you want to perform a task for each individual item.  The map function will also loop through an array but will allow you to manipulate the item in the array and return that manipulated item into a new array.  The original array will remain unmutated while the mutated items will be stored in a new array. 
 
 2. Explain the difference between a callback and a higher order function.
 
@@ -35,17 +35,18 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     function as an argument.
 
 3. What is closure?
-    Every function that a user creates has it's own score where sibling functions have no access to.  When functions are nested inside each other, the 'child' functions will have the ability to access the variables of outter functions.
+
+    Every function that a user creates has its own score where sibling functions have no access to.  When functions are nested inside each other, the 'child' functions will have the ability to access the variables of outer functions.
 
 4. Describe the four rules of the 'this' keyword.
 
-    1. Window binding: when the 'this' keyword has no context to which it can bind, it will bind to the window context.  This is normally the case when 'this' is not being used in the
-        context of an object.
+    1. Window binding: when the 'this' keyword has no context to which it can bind, it will bind to the window context.  This is normally the case when 'this' is not being used in the context of an object.
     2. Implicit binding: when the 'this' keyword is used inside of an object, it will bind to the object in which it was used.  If the object has a method, 'this' will refer to whatever   is left of the dot (whichever object the method belongs to)
     3. Explicit binding: The 'this' keyword will bind to whatever object the user tells it to, using the .call, .bind, .apply method.
     4. New binding: whenever a constructor function/class is used, and a new instance is initialized using the 'new' keyword, 'this' will refer to the newly created object.
 
 5. Why do we need super() in an extended class?
+
     The super() method is needed in javascript when you create child classes. This will call the parent's constructor and bind the 'this' keyword to the child.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 

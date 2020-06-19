@@ -17,8 +17,9 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
+
 // The reason why the nested function can access the 'internal' variable is due to closure.  The nested function has closure, which gives it access to the functions
-//that exists in outter scopes.
+// that exist in outer scopes.  When a function is told to use a variable, it will search within its own scope for that variable, and if it cannot find it, it will search for it in the next outer scope, and it will continue going to outer scopes, all the way up to the global scope until it finds it.
 
 /* Task 2: Counter */
 
